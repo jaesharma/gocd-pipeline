@@ -1,9 +1,18 @@
 #!/usr/bin/env bash
 
-echo RUNNING
+echo Execution Started
 
+echo $PWD
+
+cd dest
 echo $PWD
 
 dfx --version
 
-echo END SCRIPT
+npm install
+
+dfx start --background
+
+dfx deploy
+
+echo Done
