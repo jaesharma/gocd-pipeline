@@ -11,8 +11,4 @@ dfx --version
 
 npm install
 
-dfx start --background
-
-dfx deploy
-
 echo Done
