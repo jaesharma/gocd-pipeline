@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "icvault-backend-core-canister": {
+    "motoko_template": {
       "main": "src/main.mo",
       "type": "motoko"
     }
